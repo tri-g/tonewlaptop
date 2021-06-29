@@ -1,0 +1,72 @@
+Regions: Physical locations in the world with multiple availabiltiy zones.
+
+AZ: discrete data centres
+
+Edge location: data centre owned by trusted partner of aws
+
+Under EC2, 
+   session manager
+   elastic load balancer-appliaction,network,classic
+   auto scaling groups
+   ami
+
+security group-ec2, iam- s3
+
+Cloud front- content distribution network. takes our static content n creates multiple copy of it for faster access of it. used with s3.
+
+EC2 pricing model: 
+	on demand
+	spot-unused compute capacity
+	reserved
+	dedicated
+
+basic 
+developer
+business
+enterprise-expensive
+
+
+aws has volume discounts (the more u use, the more u save)
+1TB= 1024GB
+
+cloudfront- cost explorer
+
+budget-cost,usage,reserved
+
+shared security model: customers are responsible for security in cloud (data configuration)
+			aws is responsible for security of cloud (hardware, operation of managed services, global infrastructure) 
+                       
+
+
+100
+
+
+{
+"UserName":"Gururaj",
+"EmailId":"gururaj.e@slkgroup.com",
+"LicenseType":"trial",
+"StartDate":"06/04/2021",
+"EndDate":"06/04/2022",
+"Product":"SLK_PROD",
+"CustList":""
+}
+https://github.com/tri-g/license_portal.git
+
+private readonly IWebHostEnvironment _env;
+
+        public HomeController(IWebHostEnvironment env)
+        {
+            _env = env;
+        }
+
+Install-Package Microsoft.AspNetCore.Cors
+
+ // <input
+            //   type="text"
+            //   className="form-control"
+            //   id="licensetype"
+            //   required
+            //   value={info.licensetype || ' '}
+            //   onChange={handleInputChange}
+            //   name="licensetype"
+            // />
